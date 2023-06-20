@@ -2,6 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="projects" element={<Projects />} />
         <Route path="contact" element={<ContactPage />} />
       </Routes> */}
+      <Hero />
     </>
   );
 }
