@@ -25,7 +25,7 @@ const Hero = () => {
           Get in touch
         </button>
       </div>
-      <div className="col-span-12 m-auto mt-6 md:mt-60 lg:mt-50 xl:mt-36 md:col-span-12">
+      <div className="col-span-12 m-auto mt-14 md:mt-60 lg:mt-50 xl:mt-36 md:col-span-12">
         <div className="p-4 text-center">
           <i class="fa-solid fa-circle-arrow-down fa-2xl text-white" />
         </div>
