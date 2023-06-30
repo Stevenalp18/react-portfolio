@@ -1,5 +1,5 @@
 // font-family: 'Agdasima', sans-serif;
-import ContactHomeBtn from "./ContactHomeBtn";
+import ContactBtn from "./ContactBtn";
 import { NavLink } from "react-router-dom";
 
 const Hero = () => {
@@ -26,9 +26,7 @@ const Hero = () => {
       </div>
       <div className="px-12 py:6 xl:col-start-1 xl:col-end-4 xl:m-auto col-span-10 md:col-span-11">
         <NavLink to="/contact">
-          <button className="border-2 border-white px-8 xl:px-12 text-2xl py-2 font-['Agdasima'] rounded text-white">
-            Get in touch
-          </button>
+          <ContactBtn />
         </NavLink>
       </div>
       <div className="col-span-12 m-auto mt-14 md:mt-60 lg:mt-50 xl:mt-36 md:col-span-12">
