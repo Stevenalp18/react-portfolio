@@ -1,5 +1,7 @@
 // font-family: 'Agdasima', sans-serif;
 import ContactHomeBtn from "./ContactHomeBtn";
+import { NavLink } from "react-router-dom";
+
 const Hero = () => {
   return (
     <div className="grid grid-cols-12 text-black">
@@ -16,19 +18,25 @@ const Hero = () => {
         </div>
       </div>
       <div className="p-2 col-span-1 row-span-2 ml-6 mt-2 md:m-auto">
-        <div className="text-center">
-          <i class="fa-solid fa-circle-arrow-right fa-2xl text-white" />
-        </div>
+        <NavLink to="/projects">
+          <div className="text-center">
+            <i class="fa-solid fa-circle-arrow-right fa-2xl text-white" />
+          </div>
+        </NavLink>
       </div>
-      <div className="px-10 py:6 xl:col-start-1 xl:col-end-4 xl:m-auto col-span-10 md:col-span-11">
-        <button className="border-2 border-white px-8 xl:px-12 text-2xl py-2 font-['Agdasima'] rounded text-white">
-          Get in touch
-        </button>
+      <div className="px-12 py:6 xl:col-start-1 xl:col-end-4 xl:m-auto col-span-10 md:col-span-11">
+        <NavLink to="/contact">
+          <button className="border-2 border-white px-8 xl:px-12 text-2xl py-2 font-['Agdasima'] rounded text-white">
+            Get in touch
+          </button>
+        </NavLink>
       </div>
       <div className="col-span-12 m-auto mt-14 md:mt-60 lg:mt-50 xl:mt-36 md:col-span-12">
-        <div className="p-4 text-center">
-          <i class="fa-solid fa-circle-arrow-down fa-2xl text-white" />
-        </div>
+        <NavLink to="/about">
+          <div className="p-4 text-center">
+            <i class="fa-solid fa-circle-arrow-down fa-2xl text-white" />
+          </div>
+        </NavLink>
       </div>
     </div>
   );
