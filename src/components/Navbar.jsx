@@ -58,25 +58,25 @@ const Navbar = () => {
       {/* Shows up when toggled */}
       <div
         id="nav-links-toggle"
-        className="bg-black md:hidden hidden list-none text-2xl font-['Oswald'] absolute w-[88vw] text-center z-50"
+        className="bg-black md:hidden hidden list-none text-2xl font-['Oswald'] absolute w-full left-0 text-center m-auto z-50"
       >
-        <li className="hover:bg-slate-100 hover:text-black py-4">
-          <NavLink className="sm:px-64 px-48  py-4" to="/">
+        <li className="hover:bg-slate-100 hover:text-black py-4 w-full">
+          <NavLink className="sm:px-64 px-36 w-full py-4" to="/">
             Home
           </NavLink>
         </li>
         <li className="hover:bg-slate-100 hover:text-black py-4">
-          <NavLink className="sm:px-64 px-48  py-4" to="/about">
+          <NavLink className="sm:px-64 px-36 w-full py-4" to="/about">
             About
           </NavLink>
         </li>
         <li className="hover:bg-slate-100 hover:text-black py-4">
-          <NavLink className="sm:px-64 px-48 py-4" to="/projects">
+          <NavLink className="sm:px-64 px-36 w-full py-4" to="/projects">
             Projects
           </NavLink>
         </li>
         <li className="hover:bg-slate-100 hover:text-black py-4">
-          <NavLink className="sm:px-64 px-48 py-4" to="/contact">
+          <NavLink className="sm:px-64 px-36 w-full py-4" to="/contact">
             Contact
           </NavLink>
         </li>
