@@ -20,7 +20,7 @@ const Hero = () => {
       <div className="p-2 col-span-1 row-span-2 ml-6 mt-2 md:m-auto">
         <NavLink to="/projects">
           <div className="text-center">
-            <i class="fa-solid fa-circle-arrow-right fa-2xl text-white" />
+            <i class="fa-solid fa-circle-arrow-right fa-2xl text-white animate-pulse" />
           </div>
         </NavLink>
       </div>
@@ -29,7 +29,7 @@ const Hero = () => {
           <ContactBtn />
         </NavLink>
       </div>
-      <div className="col-span-12 m-auto mt-14 md:mt-60 lg:mt-50 xl:mt-36 md:col-span-12">
+      <div className="col-span-12 m-auto mt-14 md:mt-60 lg:mt-50 xl:mt-36 md:col-span-12 animate-pulse">
         <NavLink to="/about">
           <div className="p-4 text-center">
             <i class="fa-solid fa-circle-arrow-down fa-2xl text-white" />
