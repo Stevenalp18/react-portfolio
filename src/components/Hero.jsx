@@ -1,15 +1,20 @@
+// font-family: 'Agdasima', sans-serif;
+
 const Hero = () => {
   return (
-    <>
-      <div className="border-2 border-white flex flex-wrap sm:flex-nowrap p-20">
-        <div className="text-white grow border-white border-2">Text Here</div>
-        <div>
-        <div className="text-white border-white border-2">
-          <img width='600' src="https://www.pngmart.com/files/22/Programmer-PNG-Photos.png"/>
-        </div>
-        </div>
+    <div className="flex md:flex-row flex-col m-auto md:mt-6 pt-16 px-8">
+      {/* Container */}
+      <div className="md:self-center md:text-3xl text-xl font-['Agdasima'] m-auto animate__animated animate__fadeInLeft">
+        {/* Text */}Hi, I am <br />
+        <span className="md:text-8xl text-6xl">Steven Perez.</span>
+        <br />I like to build web apps professionally and for fun.
       </div>
-    </>
+
+      <div className="max-w-2xl md:w-1/2 md:self-center animate__animated animate__fadeInLeft">
+        {/* Image */}
+        <img src="https://www.pngmart.com/files/22/Programmer-PNG-Photos.png" />
+      </div>
+    </div>
   );
 };
 
