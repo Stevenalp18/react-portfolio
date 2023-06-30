@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 const HomePageNavArrows = () => {
   return (
     <>
-      <div className="flex w-full p-10 absolute bottom-0 ">
+      <div className="flex w-full absolute bottom-10 ">
         <div className="w-full text-center">
           <NavLink to="/about" className={"justify-center"}>
             <i className="fa-solid fa-circle-arrow-down fa-2xl animate__animated animate__flash" />
