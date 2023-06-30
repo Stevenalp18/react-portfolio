@@ -15,7 +15,7 @@ const Hero = () => {
           <img src="https://www.pngmart.com/files/22/Programmer-PNG-Photos.png" />
         </div>
       </div>
-      <div className="p-2 col-span-1 row-span-2 flex md:m-auto">
+      <div className="p-2 col-span-1 row-span-2 ml-6 mt-2 md:m-auto">
         <div className="text-center">
           <i class="fa-solid fa-circle-arrow-right fa-2xl text-white" />
         </div>
