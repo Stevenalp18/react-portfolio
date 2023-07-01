@@ -2,7 +2,7 @@ import ContactBtn from "./ContactBtn";
 
 const About = () => {
   return (
-    <div className="md:grid grid-rows-1 grid-cols-12 md:p-10 p-3 text-center m-auto md:w-11/12 text-white gap-6 font-['Agdasima']">
+    <div className="md:grid grid-rows-1 grid-cols-12 md:p-10 p-3 text-center m-auto md:w-11/12 text-white gap-6 font-['Agdasima'] animate__animated animate__fadeInLeft">
       <div className="col-span-12 text-5xl pb-2 border-b-2 border-blue-700 m-auto">
         About Me.
       </div>

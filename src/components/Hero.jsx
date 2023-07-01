@@ -14,7 +14,7 @@ const Hero = () => {
       </div>
       <div className="md:p-10 col-span-10 md:col-span-6">
         <div className="animate__animated animate__fadeInLeft flex align-middle">
-          <img src="https://www.pngmart.com/files/22/Programmer-PNG-Photos.png" />
+          <img src="src/assets/codeGuy.png" alt="guy sitting at table coding" />
         </div>
       </div>
       <div className="p-2 col-span-1 row-span-2 ml-6 mt-2 md:m-auto">
