@@ -18,7 +18,7 @@ const Projects = () => {
           <div className="text-2xl md:text-3xl">Portfolio Website</div>
         </div>
         <div className="px-4 col-span-12 md:col-span-6 m-auto -my-12 md:m-auto">
-          <img src="src/assets/cardShot.png" alt="" />
+          <img src="assets/cardShot.png" alt="" />
         </div>
         <div className="px-4 col-span-12 text-xl md:col-span-6 text-center md:m-auto md:text-2xl mb-4">
           I made this project using React, Tailwind, Hooks, canva for design and
@@ -40,7 +40,7 @@ const Projects = () => {
           <div className="text-2xl md:text-3xl">Portfolio Website</div>
         </div>
         <div className="px-4 col-span-12 md:col-span-6 m-auto -my-12 md:m-auto">
-          <img src="src/assets/cardShot.png" alt="" />
+          <img src="assets/cardShot.png" alt="" />
         </div>
         <div className="px-4 col-span-12 text-xl md:col-span-6 text-center md:m-auto md:text-2xl mb-4">
           I made this project using React, Tailwind, Hooks, canva for design and
@@ -60,7 +60,7 @@ const Projects = () => {
           <div className="text-2xl md:text-3xl">Portfolio Website</div>
         </div>
         <div className="px-4 col-span-12 md:col-span-6 m-auto -my-12 md:m-auto">
-          <img src="src/assets/cardShot.png" alt="" />
+          <img src="assets/cardShot.png" alt="" />
         </div>
         <div className="px-4 col-span-12 text-xl md:col-span-6 text-center md:m-auto md:text-2xl mb-4">
           I made this project using React, Tailwind, Hooks, canva for design and
