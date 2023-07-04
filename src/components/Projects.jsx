@@ -17,7 +17,7 @@ const Projects = () => {
           <div className="h-auto flex justify-center">
             <img
               width="300"
-              src="src/assets/portfolioShot.png"
+              src="assets/portfolioShot.png"
               alt="Portfolio Project ScreenShot"
             />
           </div>
@@ -34,7 +34,7 @@ const Projects = () => {
           <div className="h-auto flex justify-center">
             <img
               width="300"
-              src="src/assets/portfolioShot.png"
+              src="assets/portfolioShot.png"
               alt="Portfolio Project ScreenShot"
             />
           </div>
@@ -51,7 +51,7 @@ const Projects = () => {
           <div className="h-auto flex justify-center">
             <img
               width="300"
-              src="src/assets/portfolioShot.png"
+              src="assets/portfolioShot.png"
               alt="Portfolio Project ScreenShot"
             />
           </div>
