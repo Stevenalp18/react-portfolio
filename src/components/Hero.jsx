@@ -1,7 +1,5 @@
 // font-family: 'Agdasima', sans-serif;
 import ContactBtn from "./ContactBtn";
-import { NavLink } from "react-router-dom";
-import heroImg from "../assets/codeGuy.png";
 
 const Hero = () => {
   return (
@@ -13,7 +11,7 @@ const Hero = () => {
           <br />I like to build web apps professionally and for fun.
         </div>
         <div
-          className={`md:w-1/2 w-full h-80 bg-center bg-contain bg-no-repeat bg-[url('src/assets/codeGuy.png')]`}
+          className={`md:w-1/2 w-full h-80 bg-center bg-contain bg-no-repeat bg-[url('assets/codeGuy.png')]`}
         ></div>
       </div>
       <div className="w-full lg:px-48 px-10 lg-my-auto md:mt-10 -mt-10">
