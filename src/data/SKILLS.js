@@ -1,0 +1,17 @@
+export const skillsData = [
+  { id: 0, skill: "React" },
+  { id: 1, skill: "Javascript" },
+  { id: 2, skill: "Node.js" },
+  { id: 3, skill: "React Hooks" },
+  { id: 4, skill: "Git" },
+  { id: 5, skill: "Tailwind" },
+  { id: 6, skill: "Responsive Web Design" },
+  { id: 7, skill: "Bootstrap" },
+  { id: 8, skill: "Sass" },
+  { id: 9, skill: "Team Work" },
+  { id: 11, skill: "Bash/Terminal" },
+  { id: 12, skill: "Github" },
+  { id: 13, skill: "VsCode" },
+  { id: 14, skill: "HTML" },
+  { id: 15, skill: "CSS" },
+];
