@@ -5,7 +5,7 @@ const SkillsCard = () => {
     return (
       <li
         key={idx}
-        className="rounded-xl text-xl bg-orange-600 animate-pulse px-4 py-2"
+        className="rounded-xl text-2xl bg-orange-600 animate-pulse px-5 py-2"
       >
         {skill}
       </li>

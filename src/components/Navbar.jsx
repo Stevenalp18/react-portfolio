@@ -22,7 +22,9 @@ const Navbar = () => {
       <div className="flex justify-between text-4xl m-auto px-5 py-3">
         {/* Container */}
         <div className="font-bold">
-          <NavLink to="/">Steven Perez</NavLink>
+          <NavLink to="/" className="hover:text-teal-500">
+            Steven Perez
+          </NavLink>
         </div>
         <div className="md:hidden">
           <span id="hamburger" className="z-50">
@@ -41,22 +43,22 @@ const Navbar = () => {
         <div className="hidden md:flex">
           <ul className="flex gap-8">
             <li>
-              <NavLink className="" to="/">
+              <NavLink className="hover:text-emerald-500" to="/">
                 Home
               </NavLink>
             </li>
             <li>
-              <NavLink className="" to="/about">
+              <NavLink className="hover:text-blue-500" to="/about">
                 About
               </NavLink>
             </li>
             <li>
-              <NavLink className="" to="/projects">
+              <NavLink className="hover:text-red-500" to="/projects">
                 Projects
               </NavLink>
             </li>
             <li>
-              <NavLink className="" to="/contact">
+              <NavLink className="hover:text-orange-500" to="/contact">
                 Contact
               </NavLink>
             </li>
