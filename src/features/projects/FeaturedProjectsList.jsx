@@ -1,9 +1,9 @@
 import { PROJECTSDATA } from "../../data/PROJECTS";
-import ProjectsCard from "./ProjectsCard";
+import FeaturedProjectsCard from "./FeaturedProjectsCard";
 
-const ProjectsList = () => {
+const FeaturedProjectsList = () => {
   const featuredCards = PROJECTSDATA.map((project) => {
-    return <ProjectsCard projects={project} key={project.id} />;
+    return <FeaturedProjectsCard projects={project} key={project.id} />;
   });
 
   return (
@@ -13,4 +13,4 @@ const ProjectsList = () => {
   );
 };
 
-export default ProjectsList;
+export default FeaturedProjectsList;
