@@ -1,4 +1,4 @@
-import ProjectCard from "../features/projects/ProjectCard";
+import ProjectsList from "../features/projects/ProjectsList";
 
 const Projects = () => {
   return (
@@ -13,10 +13,16 @@ const Projects = () => {
       </div>
       {/*  DELETE BELOW AFTER MAKING COMPONENTS */}
       <div className="flex md:flex-row flex-col flex-wrap gap-8 w-full text-center my-10 justify-center">
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
-        {/* <div className="bg-emerald-700 p-10 rounded-xl md:w-[30vw]">
+        <ProjectsList />
+      </div>
+    </div>
+  );
+};
+
+export default Projects;
+
+{
+  /* <div className="bg-emerald-700 p-10 rounded-xl md:w-[30vw]">
           <div className="text-lg text-orange-400">Featured Project</div>
           <div className="text-2xl">Portfolio Website</div>
           <div className="h-auto flex justify-center">
@@ -32,7 +38,7 @@ const Projects = () => {
             mobile devices. I am proud of how my portfolio turned out compared
             to my other one, it's simple but nice.
           </div>
-        </div> 
+        </div>
         <div className="bg-teal-700 p-10 rounded-xl md:w-[30vw] w-full">
           <div className="text-lg text-orange-400">Featured Project</div>
           <div className="text-2xl">Portfolio Website</div>
@@ -66,13 +72,5 @@ const Projects = () => {
             mobile devices. I am proud of how my portfolio turned out compared
             to my other one, it's simple but nice.
           </div>
-  </div>
-  */}
-      </div>
-      {/*  */}
-      {/* Project Card Below */}
-    </div>
-  );
-};
-
-export default Projects;
+        </div> */
+}
