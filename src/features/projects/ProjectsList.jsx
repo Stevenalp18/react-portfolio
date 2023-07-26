@@ -7,7 +7,7 @@ const ProjectsList = () => {
   });
 
   return (
-    <div className="flex md:flex-row flex-col flex-wrap gap-8 w-full text-center my-4 justify-center">
+    <div className="flex md:flex-row flex-col flex-wrap gap-8 lg:w-2/3 text-center mt-8 mb-20 mx-auto justify-center">
       {featuredCards}
     </div>
   );
