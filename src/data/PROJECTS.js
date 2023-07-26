@@ -70,6 +70,34 @@ export const PROJECTSDATA = [
     github: "https://github.com/Stevenalp18/travel-Journey",
     link: "https://about-me-stevenalp18.netlify.app/",
   },
+  {
+    id: 5,
+    featured: false,
+    title: "Placeholder data",
+    description:
+      "This was one of my first react projects ever made, this was made with pure react and css. I did not use any cool features with this project, curently a placeholder for a future featured project after my website is finalized.",
+    image: {
+      url: "/assets/cardShot.png",
+      alt: "Screenshot of React business card",
+      width: "400",
+    },
+    github: "https://github.com/Stevenalp18/travel-Journey",
+    link: "https://about-me-stevenalp18.netlify.app/",
+  },
+  {
+    id: 6,
+    featured: false,
+    title: "Placeholder data",
+    description:
+      "This was one of my first react projects ever made, this was made with pure react and css. I did not use any cool features with this project, curently a placeholder for a future featured project after my website is finalized.",
+    image: {
+      url: "/assets/cardShot.png",
+      alt: "Screenshot of React business card",
+      width: "400",
+    },
+    github: "https://github.com/Stevenalp18/travel-Journey",
+    link: "https://about-me-stevenalp18.netlify.app/",
+  },
 ];
 
 export const FEATUREDPROJECTSCOLORS = [

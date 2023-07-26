@@ -4,6 +4,8 @@ const FeaturedProjectsCard = ({ projects }) => {
   const {
     title,
     description,
+    github,
+    link,
     image: { width, url, alt },
   } = projects;
 
@@ -28,7 +30,27 @@ const FeaturedProjectsCard = ({ projects }) => {
               className="lg:-my-16 xl:-my-20 -my-4"
             />
           </div>
-          <div className="text-xl">{description}</div>
+          <div className="text-xl h-52 ">{description}</div>
+          <div className="flex gap-2 justify-center text-xl ">
+            <div>
+              <a
+                href={github}
+                target="_blank"
+                className="border-b-2 border-teal-500"
+              >
+                Github
+              </a>
+            </div>
+            <div>
+              <a
+                href={link}
+                target="_blank"
+                className="border-b-2 border-emerald-500"
+              >
+                Website
+              </a>
+            </div>
+          </div>
         </div>
       </>
     );
