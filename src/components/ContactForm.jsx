@@ -40,6 +40,7 @@ const ContactForm = () => {
         <div className="w-full text-center">
           <textarea
             required
+            name="comment"
             placeholder="Leave your message here..."
             className="p-2 w-full h-36 rounded-xl text-md bg-slate-800 font-mono"
           ></textarea>
