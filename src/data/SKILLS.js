@@ -14,4 +14,5 @@ export const skillsData = [
   { id: 13, skill: "VsCode" },
   { id: 14, skill: "HTML" },
   { id: 15, skill: "CSS" },
+  { id: 16, skill: "React Native" },
 ];

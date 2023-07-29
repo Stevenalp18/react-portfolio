@@ -1,17 +1,17 @@
-import About from "../components/About";
-import Navbar from "../components/Navbar";
+import ContactForm from "../components/ContactForm";
 import ContactSideBtn from "../components/ContactSideBtn";
+import Navbar from "../components/Navbar";
 import SocialSideBar from "../components/SocialsBar";
 
-const AboutPage = () => {
+const ContactPage = () => {
   return (
-    <div>
+    <div className="">
       <Navbar />
-      <About />
+      <ContactForm />
       <ContactSideBtn />
       <SocialSideBar />
     </div>
   );
 };
 
-export default AboutPage;
+export default ContactPage;

@@ -2,8 +2,10 @@ import { PROJECTSDATA } from "../../data/PROJECTS";
 import FeaturedProjectsCard from "./FeaturedProjectsCard";
 
 const FeaturedProjectsList = () => {
-  const featuredCards = PROJECTSDATA.map((project) => {
-    return <FeaturedProjectsCard projects={project} key={project.id} />;
+  const featuredCards = PROJECTSDATA.map((project, i) => {
+    if (i < 3) {
+      return <FeaturedProjectsCard projects={project} key={project.id} />;
+    }
   });
 
   return (

@@ -12,7 +12,7 @@ const About = () => {
           Learn about what I do and what Skills I have below.
         </div>
       </div>
-      <div className="flex lg:flex-row flex-col justify-center gap-8 lg:mx-20">
+      <div className="flex lg:flex-row flex-col justify-center gap-8 lg:mx-20 mt-4 md:mt-10">
         <div className="border-l-2 border-b-2 px-2 border-blue-700 lg:w-1/2">
           <div className="text-4xl px-4 text-left text-orange-700">
             Get to know me.
