@@ -1,7 +1,7 @@
 import About from "../components/About";
 import Navbar from "../components/Navbar";
 import ContactSideBtn from "../components/ContactSideBtn";
-import SocialSideBar from "../components/SocialsBar";
+import SocialSideBar from "../components/SocialSideBar";
 
 const AboutPage = () => {
   return (

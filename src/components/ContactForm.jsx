@@ -6,50 +6,48 @@ const ContactForm = () => {
           Get in touch.
         </h2>
         <p className="text-2xl my-3">
-          Want to inquire, Hire me, or simple Chat? Fill out the form below!
+          Want to inquire, Hire me, or simply Chat? Fill out the form below!
         </p>
       </div>
       {/* Form Below */}
       <form
-        action="https://formsubmit.co/mail@mail.com"
+        action="https://formsubmit.co/stevenalp@gmail.com"
         method="POST"
-        className="p-4 md:p-10 m-auto w-full md:w-1/3"
+        className="p-4 md:p-10 m-auto w-full sm:w-3/4 lg:w-2/5"
       >
         {/* Name/Email */}
-        <div className="">
-          <div className="mb-2">
-            <input
-              required
-              type="text"
-              name="name"
-              id="name"
-              placeholder="e.g. john doe"
-              className="p-2 rounded-xl text-md text-white w-full text-lg bg-slate-800"
-            ></input>
-          </div>
-          <div className="mb-2">
-            <input
-              required
-              type="email"
-              name="email"
-              id="email"
-              placeholder="e.g. johndoe@mail.com"
-              className="p-2 rounded-xl text-md text-white w-full  text-lg bg-slate-800"
-            ></input>
-          </div>
+        <div className="mb-2">
+          <input
+            required
+            type="text"
+            name="name"
+            id="name"
+            placeholder="e.g. john doe"
+            className="p-2 rounded-xl text-md  w-full bg-slate-800 font-mono"
+          />
+        </div>
+        <div className="mb-2">
+          <input
+            required
+            type="email"
+            name="email"
+            id="email"
+            placeholder="e.g. johndoe@mail.com"
+            className="p-2 rounded-xl text-md w-full bg-slate-800 font-mono"
+          />
         </div>
         {/* TextArea */}
         <div className="w-full text-center">
           <textarea
             required
             placeholder="Leave your message here..."
-            className="p-2 w-full h-36 rounded-xl text-lg bg-slate-800"
+            className="p-2 w-full h-36 rounded-xl text-md bg-slate-800 font-mono"
           ></textarea>
         </div>
         <div className="w-full">
           <button
             type="submit"
-            className="px-6 py-2 text-xl font-['Agdasima'] rounded text-white bg-blue-500/70 hover:bg-orange-400 hover:text-black"
+            className="px-6 py-2 text-md font-mono rounded text-white bg-blue-500/70 hover:bg-orange-400 hover:text-black"
           >
             Send Message.
           </button>

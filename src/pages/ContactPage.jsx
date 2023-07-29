@@ -1,7 +1,7 @@
 import ContactForm from "../components/ContactForm";
 import ContactSideBtn from "../components/ContactSideBtn";
 import Navbar from "../components/Navbar";
-import SocialSideBar from "../components/SocialsBar";
+import SocialSideBar from "../components/SocialSideBar";
 
 const ContactPage = () => {
   return (
