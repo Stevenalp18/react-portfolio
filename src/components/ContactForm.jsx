@@ -11,7 +11,7 @@ const ContactForm = () => {
       </div>
       {/* Form Below */}
       <form
-        action="https://formsubmit.co/stevenalp@gmail.com"
+        action="https://formsubmit.co/stevenalp18@gmail.com"
         method="POST"
         className="p-4 md:p-10 m-auto w-full sm:w-3/4 lg:w-2/5"
       >
