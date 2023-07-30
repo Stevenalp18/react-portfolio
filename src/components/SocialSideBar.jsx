@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 const SocialSideBar = () => {
   return (
     <>
@@ -17,7 +19,7 @@ const SocialSideBar = () => {
             <i className="fa-regular fa-lg fa-envelope py-6 px-4" />
           </a>
         </button>
-        <button className="hidden rounded-3xl font-['Agdasima'] rounded-3xl text-white animate- bg-blue-500/70 hover:bg-orange-400 hover:text-black">
+        <button className="rounded-3xl font-['Agdasima'] rounded-3xl text-white animate- bg-blue-500/70 hover:bg-orange-400 hover:text-black">
           <i className="fa-solid fa-lg fa-share-nodes py-6 px-4" />
         </button>
       </div>

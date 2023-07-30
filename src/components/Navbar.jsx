@@ -1,20 +1,19 @@
 import { NavLink } from "react-router-dom";
-import { useState } from "react";
+import { useState, useRef } from "react";
 
 /// font-family: 'Oswald', sans-serif;
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
+  const hamburger = useRef();
+  const closeX = useRef();
+  const navLinks = useRef();
 
   const menuHandler = () => {
-    const hamburger = document.querySelector("#hamburger");
-    const closeX = document.querySelector("#close-x");
-    const navLinks = document.querySelector("#nav-links-toggle");
-
     setToggleMenu(!toggleMenu);
 
-    hamburger.classList.toggle("hidden");
-    closeX.classList.toggle("hidden");
-    navLinks.classList.toggle("hidden");
+    hamburger.current.classList.toggle("hidden");
+    closeX.current.classList.toggle("hidden");
+    navLinks.current.classList.toggle("hidden");
   };
 
   return (
@@ -27,13 +26,13 @@ const Navbar = () => {
           </NavLink>
         </div>
         <div className="md:hidden">
-          <span id="hamburger" className="z-50">
+          <span ref={hamburger} className="z-50">
             <i
               className="fa-solid fa-bars cursor-pointer fa-sm"
               onClick={menuHandler}
             />
           </span>
-          <span className="hidden" id="close-x">
+          <span className="hidden" ref={closeX}>
             <i
               className="fa-solid fa-x fa-sm cursor-pointer"
               onClick={menuHandler}
@@ -67,7 +66,7 @@ const Navbar = () => {
       </div>
       {/* Shows up when toggled */}
       <div
-        id="nav-links-toggle"
+        ref={navLinks}
         className="bg-black md:hidden hidden list-none text-2xl font-['Oswald'] absolute w-full left-0 text-center m-auto z-50"
       >
         <li className="hover:bg-slate-100 hover:text-black">

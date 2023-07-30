@@ -104,4 +104,12 @@ export const FEATUREDPROJECTSCOLORS = [
   { id: 0, color: "bg-teal-700" },
   { id: 1, color: "bg-emerald-700" },
   { id: 2, color: "bg-orange-700" },
+  { id: 3, color: "bg-rose-700" },
+  { id: 4, color: "bg-amber-700" },
+  { id: 5, color: "bg-lime-700" },
+  { id: 6, color: "bg-green-700" },
+  { id: 7, color: "bg-cyan-700" },
+  { id: 8, color: "bg-sky-700" },
+  { id: 9, color: "bg-indigo-700" },
+  { id: 10, color: "bg-violet-700" },
 ];

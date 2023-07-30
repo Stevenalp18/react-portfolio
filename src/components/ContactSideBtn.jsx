@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const ContactSideBtn = () => {
-  const [openModal, setOpenModal] = useState(false);
+  const [openForm, setOpenForm] = useState(false);
   const formModal = () => {
     return (
       <>
