@@ -18,17 +18,28 @@ const About = () => {
             Get to know me.
           </div>
           <div className="p-4 text-left text-2xl">
-            Hi, my name is Steven Perez. I am a self taught web developer. I
-            have created several web applications professionally and for fun for
-            some time now. I love using different web technologies and love to
-            learn new concepts about web app development. I specialize more in
-            the Front End aspect of a website but also have some knowledge with
-            some backend tecnhologies. I like to create from scratch and let my
-            mind wander free with what creativity brings to fruition.
+            Hi there! 👋 <br />
+            <br />I am Steven Perez, a front end developer 💻 and a Nucamp
+            Coding Bootcamp Graduate👨‍🎓. Originally a self taught developer but
+            attended a coding bootcamp (Nucamp) to hone my skills and fill the
+            gaps that needed to be filled. I completed the Front End Development
+            and the Full Stack Development course and have been working on
+            larger projects to continue to improve my skillset. I love learning
+            about new technologies and implementing them into my projects. After
+            all, the more you use something, the better you get at it. Feel free
+            to check out my projects by hitting the 'Projects' tab above. I am
+            continuously working on new project ideas, check out my Github
+            profile on the bottom right to see what I am currently working on.
+            It will be the most accurate!
+            <br />
+            <br />
+            If you want to get in touch feel free to reach out! Say Hi, either
+            via LinkedIn or email. 📧 If you want to work together or have any
+            opportunities, do feel free to reach out as well!
           </div>
         </div>
         <div className="flex flex-col gap-4 lg:w-1/2">
-          <div className="text-3xl text-left">Skills.</div>
+          <div className="text-3xl text-left mb-10">Skills.</div>
           <SkillsCard />
         </div>
       </div>

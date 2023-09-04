@@ -2,7 +2,7 @@ import ContactBtn from "./ContactBtn";
 
 const Hero = () => {
   return (
-    <div className="text-white mt-6">
+    <div className="text-white mt-12">
       <div className="flex flex-col md:flex-row lg:mt-8 lg:px-48 px-1 justify-center animate__animated animate__fadeInLeft">
         <div className="font-['Agdasima'] lg:px-10 md:text-3xl text-2xl m-auto md:w-1/2 px-10 md:px-12">
           Hi, I am <br />

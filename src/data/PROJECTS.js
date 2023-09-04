@@ -1,10 +1,39 @@
 export const PROJECTSDATA = [
+  //Featured
   {
     id: 0,
     featured: true,
+    title: "Weather Forecast",
+    description:
+      "*****UNDER DEVELOPMENT***** but functional! This project is made with React, Tailwind, Redux, Fetch, Async/Await, it utilizes the WeatherApi and consumes multiple endpoints from the Weather API to render the Current and Forecast weather conditions. I also implemented a bit of redux to help with the global search and reduce prop drilling.",
+    image: {
+      url: "/assets/weatherApp.png",
+      alt: "Screenshot of Weather App",
+      width: "400",
+    },
+    github: "https://github.com/Stevenalp18/weather-app",
+    link: "https://weather-app-stevenalp18.netlify.app/",
+  },
+  {
+    id: 1,
+    featured: true,
+    title: "Quote Generator",
+    description:
+      "This project is made with React, Tailwind, Fetch and some Conditionoal Rendering Logic. It utilizes a public API and the user can add, delete, or check out the quotes that have been saved.",
+    image: {
+      url: "/assets/quoteGenerator.png",
+      alt: "Screenshot of Quote Generator Project",
+      width: "400",
+    },
+    github: "https://github.com/Stevenalp18/quote-generator",
+    link: "https://quote-generator-stevenalp18.netlify.app/",
+  },
+  {
+    id: 2,
+    featured: true,
     title: "Portfolio Website",
     description:
-      "I made this project using React, Tailwind, Hooks, canva for design and combined with flex/grid I was able to make it responsive on all mobile devices. I am proud of how my portfolio turned out compared to my other one, it's simple but nice.",
+      "This project is made with React, React-Router, Tailwind, Hooks, SPA, and Canva for some of the designs. I created to showcase my projects that I have worked on and currently am working on plus I learned essential React Concepts. I will update this often and this will probably be replaced by another featured project.",
     image: {
       url: "/assets/portfolio.png",
       alt: "Screenshot of Portfolio website",
@@ -13,12 +42,13 @@ export const PROJECTSDATA = [
     github: "https://github.com/Stevenalp18/react-portfolio",
     link: "https://react-portfolio-stevenalp18.netlify.app/",
   },
+  // Featured End
   {
-    id: 1,
-    featured: true,
+    id: 3,
+    featured: false,
     title: "Travel Journey",
     description:
-      "I made this project using React and Tailwind. I wanted to practice my initial react skills alongside with tailwind. I personalized it into a mini blog for my travel journey. I try to update it every once in a while so I can have it up to date. It is also responsive!",
+      "This project is made with React, Tailwind, and React Hooks. This was on of my first projects that I first used as a mini travel blog and was also able to learn more essential React concepts.",
     image: {
       url: "/assets/travelJourney.png",
       alt: "Screenshot of Travel Journey website",
@@ -28,75 +58,32 @@ export const PROJECTSDATA = [
     link: "https://travel-journey-stevenalp18.netlify.app/",
   },
   {
-    id: 2,
-    featured: false,
-    title: "About React Card",
-    description:
-      "This was one of my first react projects ever made, this was made with pure react and css. I did not use any cool features with this project, curently a placeholder for a future featured project after my website is finalized.",
-    image: {
-      url: "/assets/reactCard.png",
-      alt: "Screenshot of React business card",
-      width: "400",
-    },
-    github: "https://github.com/Stevenalp18/travel-Journey",
-    link: "https://about-me-stevenalp18.netlify.app/",
-  },
-  {
-    id: 3,
-    featured: true,
-    title: "Quote Generator",
-    description:
-      "This is a Quote Generator that I created to display working with simple API's, making calls, working with hooks, state, version control, tailwind. You can add or delete quotes you want to save. There is also conditional rendering!",
-    image: {
-      url: "/assets/quoteGenerator.png",
-      alt: "Screenshot of Quote Generator Project",
-      width: "400",
-    },
-    github: "https://github.com/Stevenalp18/quote-generator",
-    link: "https://quote-generator-stevenalp18.netlify.app/",
-  },
-  // Delete below
-  {
     id: 4,
     featured: false,
-    title: "PlaceHolder Data, Work In Progress Projects",
+    title: "Bootstrap Nucampste",
     description:
-      "This was one of my first react projects ever made, this was made with pure react and css. I did not use any cool features with this project, curently a placeholder for a future featured project after my website is finalized.",
+      "This project is made with Bootstrap. We did it as a project for the front end development course at nucamp. We utilized Bootstrap and added contact forms and reservation modals.",
     image: {
-      url: "/assets/reactCard.png",
-      alt: "Screenshot of React business card",
+      url: "/assets/nucamp.png",
+      alt: "Screenshot of Nucampsite",
       width: "400",
     },
-    github: "https://github.com/Stevenalp18/travel-Journey",
-    link: "https://about-me-stevenalp18.netlify.app/",
+    github: "https://github.com/Stevenalp18/nucampsite",
+    link: "https://bootstrap-nucamp-stevenalp18.netlify.app/",
   },
   {
     id: 5,
     featured: false,
-    title: "PlaceHolder Data, Work In Progress Projects",
+    title: "Weight Conversion",
     description:
       "This was one of my first react projects ever made, this was made with pure react and css. I did not use any cool features with this project, curently a placeholder for a future featured project after my website is finalized.",
     image: {
-      url: "/assets/reactCard.png",
+      url: "/assets/weightConversion.png",
       alt: "Screenshot of React business card",
       width: "400",
     },
-    github: "https://github.com/Stevenalp18/travel-Journey",
-    link: "https://about-me-stevenalp18.netlify.app/",
-  },
-  {
-    id: 6,
-    featured: false,
-    title: "PlaceHolder Data, Work In Progress Projects",
-    description:
-      "This was one of my first react projects ever made, this was made with pure react and css. I did not use any cool features with this project, curently a placeholder for a future featured project after my website is finalized.",
-    image: {
-      url: "/assets/reactCard.png",
-      alt: "Screenshot of React business card",
-      width: "400",
-    },
-    github: "https://github.com/Stevenalp18/travel-Journey",
-    link: "https://about-me-stevenalp18.netlify.app/",
+    github: "https://github.com/Stevenalp18/weight-conversion",
+    link: "https://weight-conversion-stevenalp18.netlify.app/",
   },
 ];
 
