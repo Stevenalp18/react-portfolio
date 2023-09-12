@@ -5,7 +5,7 @@ export const PROJECTSDATA = [
     featured: true,
     title: "Weather Forecast",
     description:
-      "*****UNDER DEVELOPMENT***** but functional! This project is made with React, Tailwind, Redux, Fetch, Async/Await, it utilizes the WeatherApi and consumes multiple endpoints from the Weather API to render the Current and Forecast weather conditions. I also implemented a bit of redux to help with the global search and reduce prop drilling.",
+      "This project is made with React, Tailwind, Redux, Fetch, Async/Await, it utilizes the WeatherApi and consumes multiple endpoints from the Weather API to render the Current and Forecast weather conditions. I also implemented a bit of redux to help with the global search and reduce prop drilling.",
     image: {
       url: "/assets/weatherApp.png",
       alt: "Screenshot of Weather App",
